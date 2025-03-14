@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+}
+
 body {
     background-color: rgb(185, 221, 243);
+
 }
 
 .card {
@@ -19,8 +26,7 @@ body {
 }
 
 .card-content {
-    padding: 0px 20px;
-    
+    padding: 20px;   
 }
 
 .card h1 {
@@ -30,4 +36,18 @@ body {
 
 .card h2 {
     font-size: 15px;
+}
+
+.card:hover {
+    background-color: rgb(157, 233, 208);
+    transform: scale(1.05);
+}
+
+.card .footer {
+    padding: 25px;
+    text-align: center;
+}
+
+.boton a {
+    text-decoration: none;
 }
